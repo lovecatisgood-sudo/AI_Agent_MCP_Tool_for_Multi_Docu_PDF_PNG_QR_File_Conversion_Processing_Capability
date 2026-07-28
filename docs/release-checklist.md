@@ -4,18 +4,19 @@
 
 - [x] Review the repository name: `AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability`.
 - [x] Review the description: `Free local-first MCP server giving AI agents private token, RAG, context, CSV/JSON and QR tools; PDF, OCR, DOCX and image processing roadmap. MIT by DJAI Academy & Siamese Cat Dev.`
-- [ ] Confirm the owner: `lovecatisgood-sudo`.
-- [ ] Create a public repository without generated README, license, or `.gitignore` files.
-- [ ] Enable Issues, Discussions, private vulnerability reporting, and branch protection after the first push.
+- [x] Confirm the owner: `lovecatisgood-sudo`.
+- [x] Create a public repository without generated README, license, or `.gitignore` files.
+- [x] Enable Issues, Discussions, and private vulnerability reporting after the first push.
+- [ ] Protect `main` with the final successful CI check names.
 - [x] Suggested topics: `mcp`, `model-context-protocol`, `ai-agent`, `agent-tools`, `document-processing`, `pdf-tools`, `pdf-converter`, `image-converter`, `png`, `qr-code-generator`, `ocr`, `thai-language`, `rag`, `token-counter`, `csv`, `json`, `local-first`, `privacy-first`, `typescript`, `open-source`.
 
 ## Before the first push
 
-- [ ] Run `npm ci` from a clean checkout.
-- [ ] Run `npm run check`, `npm test`, `npm run build`, and `npm pack --dry-run`.
-- [ ] Confirm `git status` contains no fixtures, outputs, archives, environment files, or credentials.
-- [ ] Confirm all skill validators pass.
-- [ ] Review repository URLs and public contact details.
+- [x] Run `npm ci` from a clean checkout.
+- [x] Run `npm run check`, `npm run validate:docs`, `npm test`, `npm run build`, and `npm pack --dry-run`.
+- [x] Confirm `git status` contains no fixtures, outputs, archives, environment files, or credentials.
+- [x] Confirm all skill validators pass.
+- [x] Review repository URLs and public contact details.
 
 ## Before npm publication
 
@@ -38,4 +39,4 @@
 
 - This machine is not authenticated to npm.
 - The npm package name currently returns `404`, which means no package is published under that exact name; scope ownership must still be confirmed after login.
-- GitHub publication is performed only after the complete local validation pass.
+- GitHub source publication is complete; npm publication remains separate.
