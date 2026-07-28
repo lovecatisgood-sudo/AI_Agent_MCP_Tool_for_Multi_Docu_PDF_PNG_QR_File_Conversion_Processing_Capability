@@ -3,7 +3,7 @@
 [![CI](https://github.com/lovecatisgood-sudo/AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability/actions/workflows/ci.yml/badge.svg)](https://github.com/lovecatisgood-sudo/AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[English](README.md) · [ภาษาไทย](README.th.md) · [ทดลองเครื่องมือเดิมใน Browser](https://www.djai.academy/tools/) · [รายการ MCP Tool](docs/tools.md) · [Roadmap](ROADMAP.md)
+[English](README.md) · [ภาษาไทย](README.th.md) · [คู่มือ AI Agent Skills](SKILLS.th.md) · [Skills guide in English](SKILLS.md) · [ทดลองเครื่องมือเดิมใน Browser](https://www.djai.academy/tools/) · [รายการ MCP Tool](docs/tools.md) · [Roadmap](ROADMAP.md)
 
 หลังจากเราเผยแพร่ชุดเครื่องมือฟรีสำหรับรวม แยก บีบอัด และแปลง PDF, แปลงและลดขนาดรูป PNG/JPG/WebP, OCR ภาษาไทย-อังกฤษ, แปลง DOCX, สร้าง QR Code, นับ Token/เตรียม RAG และจัดการ CSV/JSON/Excel มีหลายคนถามว่า จะให้ AI Agent หรือ Coding Agent เข้าถึงเครื่องมือเหล่านี้และทำงานแทนได้อย่างไร
 
@@ -50,6 +50,12 @@ Roadmap ถัดไปครอบคลุมรวม/แยก/หมุน/
 - “สร้าง QR Code SVG ระดับ Error Correction สูงสำหรับ URL นี้”
 - Release ถัดไป: “OCR เอกสารสแกนภาษาไทย ทำความสะอาดข้อความ แล้วเตรียมเป็น RAG Knowledge Base”
 - Release ถัดไป: “รวม PDF ใส่เลขหน้า บีบอัดผลลัพธ์ และเก็บไฟล์ต้นฉบับไว้”
+
+## AI Agent Skills ที่ใช้ซ้ำได้
+
+Repository นี้มี Workflow Skill 4 รายการสำหรับสอน Agent ที่รองรับให้เรียก MCP Tool อย่างปลอดภัยและเป็นขั้นตอน ได้แก่ [`document-to-rag`](skills/document-to-rag/SKILL.md), [`agent-context-preparation`](skills/agent-context-preparation/SKILL.md), [`batch-data-cleanup`](skills/batch-data-cleanup/SKILL.md) และ [`private-document-processing`](skills/private-document-processing/SKILL.md)
+
+อ่าน [คู่มือ AI Agent Skills ภาษาไทยฉบับเต็ม](SKILLS.th.md) หรือ [English skills guide](SKILLS.md) เพื่อดูความต่างระหว่าง Skill กับ MCP Tool, วิธีติดตั้งใน Codex, ประโยชน์, Prompt ตัวอย่าง, ข้อจำกัด, วิธีแก้ปัญหา, Privacy Guide และไอเดียทำบทความหรือวิดีโอ
 
 ## Privacy และ Security
 
