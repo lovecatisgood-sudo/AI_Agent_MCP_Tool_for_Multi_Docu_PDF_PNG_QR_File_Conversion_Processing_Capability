@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Context Preparation"
+  short_description: "Package source files for an AI agent"
+  default_prompt: "Use -context-preparation to create a concise, source-delimited context file for an AI agent."

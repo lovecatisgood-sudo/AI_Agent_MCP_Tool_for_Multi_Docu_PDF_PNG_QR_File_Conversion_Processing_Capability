@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose a capability or workflow.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: User outcome
+      description: Describe the workflow and why an MCP tool is useful.
+    validations:
+      required: true
+  - type: textarea
+    id: interface
+    attributes:
+      label: Proposed inputs and outputs
+      description: Include file effects, limits, and structured metadata.
+  - type: textarea
+    id: security
+    attributes:
+      label: Privacy and security considerations
+      description: Identify parsers, native dependencies, network behavior, and resource risks.
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Would you like to contribute this change?
+      options:
+        - Yes
+        - Maybe, with guidance
+        - No

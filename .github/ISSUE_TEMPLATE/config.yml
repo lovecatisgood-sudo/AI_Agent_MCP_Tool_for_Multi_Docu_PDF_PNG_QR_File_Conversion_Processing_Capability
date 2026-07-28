@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/lovecatisgood-sudo/AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability/security/advisories/new
+    about: Report vulnerabilities privately. Never attach confidential documents.
+  - name: Commercial AI-agent development enquiry
+    url: https://www.djai.academy/siamese_cat/dev/en/
+    about: Contact DJAI Academy and Siamese Cat Dev for MCP integration and software development.
+  - name: Original browser tools
+    url: https://www.djai.academy/tools/en/
+    about: Use the live PDF, image, OCR, document, QR, AI and data tools.

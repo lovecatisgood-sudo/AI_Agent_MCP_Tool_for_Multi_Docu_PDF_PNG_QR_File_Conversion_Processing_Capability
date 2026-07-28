@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "djai-tools": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability/dist/index.js",
+        "--profile",
+        "core",
+        "--allow-read",
+        "/absolute/path/to/documents",
+        "--allow-write",
+        "/absolute/path/to/djai-output"
+      ]
+    }
+  }
+}

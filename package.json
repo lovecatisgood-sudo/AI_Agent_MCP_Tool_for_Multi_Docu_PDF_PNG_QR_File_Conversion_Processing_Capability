@@ -1,0 +1,79 @@
+{
+  "name": "@djai/tools-mcp",
+  "version": "0.1.0",
+  "description": "Free local-first MCP server for AI-agent context, RAG, CSV/JSON cleanup and QR generation, with PDF, OCR, DOCX and image processing on the roadmap. MIT by DJAI Academy and Siamese Cat Dev.",
+  "license": "MIT",
+  "author": "DJAI Academy / Siamese Cat Dev",
+  "type": "module",
+  "bin": {
+    "djai-tools-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "README.th.md",
+    "ATTRIBUTION.md",
+    "TRADEMARKS.md",
+    "SUPPORT.md",
+    "SECURITY.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "ROADMAP.md"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovecatisgood-sudo/AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability.git"
+  },
+  "homepage": "https://github.com/lovecatisgood-sudo/AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability#readme",
+  "bugs": {
+    "url": "https://github.com/lovecatisgood-sudo/AI_Agent_MCP_Tool_for_Multi_Docu_PDF_PNG_QR_File_Conversion_Processing_Capability/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "agent-tools",
+    "document-processing",
+    "pdf-tools",
+    "ocr",
+    "image-converter",
+    "png",
+    "rag",
+    "csv",
+    "qr-code",
+    "local-first",
+    "privacy"
+  ],
+  "scripts": {
+    "build": "node scripts/clean.mjs && tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "validate:docs": "node scripts/validate-docs.mjs",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:coverage": "node --import tsx --test --experimental-test-coverage tests/*.test.ts",
+    "verify": "npm run check && npm run validate:docs && npm test && npm run build",
+    "prepack": "npm run verify"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "gpt-tokenizer": "3.4.0",
+    "papaparse": "5.5.4",
+    "qrcode": "1.5.4",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "@types/papaparse": "5.5.2",
+    "@types/qrcode": "1.5.6",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

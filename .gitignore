@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+djai-output/
+*.log
+*.tgz
+.DS_Store
+.env
+.env.*
+!.env.example

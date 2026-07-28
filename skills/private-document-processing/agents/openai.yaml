@@ -1,0 +1,4 @@
+interface:
+  display_name: "Private Document Processing"
+  short_description: "Process local documents with safe defaults"
+  default_prompt: "Use -document-processing to handle these files locally while preserving the originals."

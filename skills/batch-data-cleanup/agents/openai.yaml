@@ -1,0 +1,4 @@
+interface:
+  display_name: "Batch Data Cleanup"
+  short_description: "Clean local CSV and JSON datasets"
+  default_prompt: "Use -data-cleanup to inspect and clean these local data files safely."

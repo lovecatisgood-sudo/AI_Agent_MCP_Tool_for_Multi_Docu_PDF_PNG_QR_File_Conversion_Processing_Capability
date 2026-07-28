@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document to RAG"
+  short_description: "Turn private documents into RAG chunks"
+  default_prompt: "Use -to-rag to prepare a local document as clean Markdown and JSONL chunks."

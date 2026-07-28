@@ -1,0 +1,12 @@
+DJAI Tools MCP — AI Agent Local File Processing Tools
+Copyright (c) 2026 DJAI Academy / Siamese Cat Dev
+
+This project adapts environment-independent behavior from the MIT-licensed
+DJAI browser tools repository:
+https://github.com/lovecatisgood-sudo/free-pdf-image-ocr-docx-document-converter-qr-code-ai-token-rag-csv-excel-tools
+
+Created and maintained by Siamese Cat Dev at DJAI Academy.
+Community connection: https://siamesecat.cafe/
+
+Third-party packages retain their own copyright and license notices. See the
+package lock and installed package metadata for the complete dependency set.
