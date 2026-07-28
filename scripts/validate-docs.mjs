@@ -1,7 +1,8 @@
 import path from "node:path";
 import { access, readdir, readFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 
-const root = path.resolve(new URL("..", import.meta.url).pathname);
+const root = fileURLToPath(new URL("../", import.meta.url));
 const excluded = new Set(["node_modules", "dist", ".git"]);
 const markdownFiles = [];
 
