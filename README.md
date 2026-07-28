@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-local%20stdio-blue)](https://modelcontextprotocol.io/)
 
-[English](README.md) · [ภาษาไทย](README.th.md) · [Try the original browser tools](https://www.djai.academy/tools/en/) · [Tool reference](docs/tools.md) · [Roadmap](ROADMAP.md)
+[English](README.md) · [ภาษาไทย](README.th.md) · [Agent skills guide](SKILLS.md) · [คู่มือ Skills ภาษาไทย](SKILLS.th.md) · [Try the original browser tools](https://www.djai.academy/tools/en/) · [Tool reference](docs/tools.md) · [Roadmap](ROADMAP.md)
 
 Since publishing our free browser-based PDF tools, image converter and compressor, Thai-English OCR, DOCX converter, QR generator, AI token/RAG utilities, and CSV/JSON/Excel tools, many people have asked how they could let their AI or coding agents access that tool bundle and do the work for them. **DJAI Tools MCP is our answer:** a free, open-source, local-first Model Context Protocol server that gives AI agents carefully controlled file-processing capabilities on the user's own computer.
 
@@ -49,6 +49,12 @@ Planned phases cover merge/split/rotate/watermark PDF, PDF text and AI Markdown 
 - “Generate a high-error-correction SVG QR code for this URL.”
 - Later releases: “OCR these Thai scanned pages, clean the text, and prepare a RAG knowledge base.”
 - Later releases: “Merge these PDFs, add page numbers, compress the output, and preserve the originals.”
+
+## Reusable AI agent skills
+
+The repository includes four workflow skills that teach compatible agents how to combine the MCP tools safely and consistently: [`document-to-rag`](skills/document-to-rag/SKILL.md), [`agent-context-preparation`](skills/agent-context-preparation/SKILL.md), [`batch-data-cleanup`](skills/batch-data-cleanup/SKILL.md), and [`private-document-processing`](skills/private-document-processing/SKILL.md).
+
+Read the complete [English AI agent skills guide](SKILLS.md) or [คู่มือ Skills ภาษาไทย](SKILLS.th.md) for the difference between skills and MCP tools, Codex installation, benefits, example prompts, limitations, troubleshooting, privacy guidance, and tutorial/content ideas.
 
 ## Privacy and security model
 
