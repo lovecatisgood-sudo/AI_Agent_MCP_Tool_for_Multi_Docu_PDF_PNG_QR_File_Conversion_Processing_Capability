@@ -7,7 +7,7 @@
 - [x] Confirm the owner: `lovecatisgood-sudo`.
 - [x] Create a public repository without generated README, license, or `.gitignore` files.
 - [x] Enable Issues, Discussions, and private vulnerability reporting after the first push.
-- [ ] Protect `main` with the final successful CI check names.
+- [x] Protect `main` with the final successful CI check names.
 - [x] Suggested topics: `mcp`, `model-context-protocol`, `ai-agent`, `agent-tools`, `document-processing`, `pdf-tools`, `pdf-converter`, `image-converter`, `png`, `qr-code-generator`, `ocr`, `thai-language`, `rag`, `token-counter`, `csv`, `json`, `local-first`, `privacy-first`, `typescript`, `open-source`.
 
 ## Before the first push
